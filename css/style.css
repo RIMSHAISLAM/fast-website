@@ -1,0 +1,173 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+.head{
+    background-image: url('../img/bg-masthead.jpg');
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.head .overlay{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    position: absolute;
+    
+    
+}
+.head .row{
+    transform: translate(0px, 200px);
+}
+.head h1{
+    font-size: 30px;
+}
+.head  .email{
+    margin-bottom: 10px;
+}
+.img-01{
+    background-image: url('../img/img-01.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+}
+.img-02{
+    background-image: url('../img/img-02.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+}
+.img-03{
+    background-image: url('../img/img-01.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+}
+
+.card{
+   padding-top: 6rem;
+   padding-bottom: 6rem ;
+   border: none;
+}
+.text1{
+    padding:20px;
+}
+
+.icon i{
+    font-size: 5rem;
+    color: rgb(20, 114, 238);
+    margin-bottom: 2rem;
+}
+.text2{
+    padding: 50px;
+   
+}
+.img11{
+    padding: 5rem;
+    
+    
+}
+.testimonial-item{
+    padding-bottom: 25px;
+}
+.testimonial img{
+    width: 50%;
+}
+
+.img11 h2{
+    padding-bottom: 35px;
+    font-size: 30px;
+}
+
+.img11 p{
+    font-size: 15px;
+    font-weight: 300;
+}
+.ready{
+    background-image: url('../img/bg-masthead.jpg');
+    height: 50vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    position: relative;
+}
+.ready .overlay{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0.3;
+    position: absolute;
+       
+}
+.ready .row{
+    transform: translate(0px, 100px);
+}
+.ready h1{
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+.ready input{
+    margin-bottom: 10px;
+}
+.list2 i{
+    font-size: 30px;
+}
+
+@media (min-width: 768px) {
+    .head .row{
+        transform: translate(0px, 400px);
+    }
+    .head h1{
+        font-size: 40px;
+    }
+    .images p{
+        font-size: 20px;
+    }
+    .img11 h2{
+       
+        font-size: 40px;
+    }
+    .testimonial img{
+        width: 30%;
+    }
+    .testimonial-item{
+        padding-bottom: 35px;
+    }
+    .testimonial-item p{
+        font-size: 20px;
+    }
+    .ready h1{
+        font-size: 35px;
+    }
+    .ready .row{
+        transform: translate(0px, 200px);
+    }
+    .list2 i{
+        padding: 5px;
+        font-size: 40px;
+    }
+    
+}
+@media (min-width: 992px) {
+    .head .row{
+        transform: translate(0px, 400px);
+    }
+    .head h1{
+        font-size: 40px;
+    }
+    .ready h1{
+        font-size: 40px;
+    }
+    .list2 i{
+        font-size: 35px;
+    }
+    .ready .row{
+        transform: translate(0px, 200px);
+    }
+}
+
+   
+
